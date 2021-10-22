@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);//容错解决部分自建空间报错
 //1MB带宽演示页面： http://ewuyi.net/php/chuanlide.php
 $title="php单文件实现ajax多文件上传带进度条完整示范";
 $desc ="可设定上传类型，上传大小限制，上传文件个数限制;<br>";
