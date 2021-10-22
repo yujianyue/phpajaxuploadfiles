@@ -37,7 +37,6 @@ if(!mkdir("./$updir/", 0777, true)) {
  exit("<span>转存失败：</span>创建文件夹失败！");
 }
 }
- exit("<span>上传成功：</span>更名为：".$fileName);
 move_uploaded_file($filex["tmp_name"], "./$updir/".$fileName);
 if (file_exists("./$updir/".$fileName)){
  exit("<span>上传成功：</span>更名为：".$fileName);
